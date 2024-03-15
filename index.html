@@ -1,0 +1,963 @@
+	<!DOCTYPE html>
+	<!-- language -->
+	<html lang="zxx">
+
+	<head>
+		<style>
+			table.predict {
+				border-collapse: collapse;
+				width: 100%;
+			}
+			
+			th.predict, td.predict {
+				border: 1px solid black;
+				padding: 8px;
+				text-align: left;
+			}
+
+			td.predict{
+				height:100px;
+				text-align:center;
+			}
+			
+			th.predict {
+				background-color: #f2f2f2;
+			}
+
+			th.date, td.date{
+				min-width:150px
+			}
+		</style>
+	    <!-- ========== Meta Tags ========== -->
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="author" content="layerdrops">
+	    <meta name="description" content="Drivschol is a modern and versatile driving HTML template. It is specially designed for driving school, car driving, driving classes, training center, online school, education system, online courses, traffic school and all other education school and online driving courses business and websites.">
+
+	    <!-- ======== Page title ============ -->
+	    <title>Projet</title>
+
+	    <!-- ========== Favicon Icon ========== -->
+	    <link rel="shortcut icon" href="assets/images/favicons/apple-touch-icon.png" type="image/x-icon">
+	    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+	    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+	    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+	    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+
+
+	    <!-- ===========  All Font ================= -->
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Urbanist:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	    <!-- ===========  All Stylesheet ================= -->
+	    <!--  Bootstrap css plugins -->
+	    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+	    <!--  bootstrap-select css plugins -->
+	    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css">
+	    <!--  animate css plugins -->
+	    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
+	    <!--  fontawesome css plugins -->
+	    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
+	    <!--  jquery-ui css plugins -->
+	    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
+	    <!--  jarallax css plugins -->
+	    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
+	    <!--  magnific-popup css plugins -->
+	    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
+	    <!--  nouislider css plugins -->
+	    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css">
+	    <!--  nouislider css plugins -->
+	    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css">
+	    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css">
+	    <!--  nouislider css plugins -->
+	    <link rel="stylesheet" href="assets/vendors/drivschol-icons/style.css">
+	    <!--  nouislider css plugins -->
+	    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
+	    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
+
+	    <!-- template styles -->
+	    <link rel="stylesheet" href="assets/css/drivschol.css">
+	</head>
+
+	<body class="custom-cursor">
+
+	    <!-- Custom Cursor -->
+	    <div class="custom-cursor__cursor"></div>
+	    <div class="custom-cursor__cursor-two"></div>
+
+	    <!-- Preloader Start-->
+	    <div class="preloader">
+	        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+	    </div>
+	    <!-- Preloader End-->
+
+	    <div class="page-wrapper">
+
+
+	        <!-- Topbar Start-->
+	        <div class="topbar-one">
+	            <div class="container-fluid">
+	                <div class="topbar-one__inner">
+	                    <div class="topbar-one__left">
+	                        <div class="topbar-one__social">
+	                            <!-- social link-->
+	                            <a href="https://facebook.com"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+	                            <a href="https://twitter.com"><i class="icon-twitter" aria-hidden="true"></i></a>
+	                            <a href="https://pinterest.com"><i class="icon-pinterest" aria-hidden="true"></i></a>
+	                            <a href="https://instagram.com"><i class="icon-Instagram" aria-hidden="true"></i></a>
+	                        </div>
+	                        <p class="topbar-one__text">Lun - Sam: 8.00 - 17.00</p>
+	                    </div>
+	                    <ul class="topbar-one__right">
+	                        <li class="topbar-one__right-text"><i class="icon-map-pin" aria-hidden="true"></i><a href="https://www.google.com/maps">18 Rue de l'Usine, Tunis 2035 ESPRIT Chargui2 </a></li>
+	                        <li class="topbar-one__right-text"><i class="icon-envelope" aria-hidden="true"></i><a href="mailto: contact@esprit.tn">  contact@esprit.tn</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+	        <!-- Topbar Start-->
+
+	        <!-- Header Start-->
+	        <header class="main-header sticky-header sticky-header--normal">
+	            <div class="container-fluid">
+	                <div class="main-header__inner">
+	                    <div class="main-header__logo">
+	                        <a href="index.html">
+	                            <img src="assets/images/logo2.png" alt="Drivschol HTML" width="49">
+	                        </a>
+	                    </div><!-- /.main-header__logo -->
+	                    <nav class="main-header__nav main-menu">
+	                        <ul class="main-menu__list">
+
+	                            <li class="dropdown megamenu">
+	                                <a href="index.html">Home</a>
+	                                
+	                            </li>
+	                            <li> <a href="#about">A propos de nous</a> </li>
+								<li> <a href="#testimonials">Témoignages</a> </li>
+								<li> <a href="#realisations">Nos réalisations</a> </li>
+								<li> <a href="#app">Execution de l'application</a> </li>
+							
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+
+	                            
+	                            
+	                          
+	                           
+	                        </ul>
+	                    </nav><!-- /.main-header__nav -->
+	                    <div class="main-header__right">
+	                        <div class="info-item">
+	                            <a href="tel:+8801775-338747" class="info-item__btn d-flex align-items-center">
+	                                <div class="icon">
+	                                    <i class="icon-Call"></i>
+	                                </div>
+	                                <div class="content">
+	                                    <span class="content__text">Tel</span>
+	                                    <h6 class="content__call">+216 70 250 000</h6>
+	                                </div>
+	                            </a>
+	                        </div>
+	                        
+	                        
+	                    </div><!-- /.main-header__right -->
+	                    <div class="mobile-nav__btn mobile-nav__toggler">
+	                        <span></span>
+	                        <span></span>
+	                        <span></span>
+	                    </div><!-- /.mobile-nav__toggler -->
+	                </div><!-- /.main-header__inner -->
+	            </div><!-- /.container-fluid -->
+	        </header><!-- /.main-header -->
+	        <!-- Header End-->
+
+
+	        <section class="main-slider-one">
+	            <div class="main-slider-one__carousel drivschol-owl__carousel owl-carousel" data-owl-options='{
+			"loop": true,
+			"animateOut": "fadeOut",
+			"animateIn": "fadeInRightBig",
+			"items": 1,
+			"autoplay": true,
+			"autoplayTimeout": 7000,
+			"smartSpeed": 1000,
+			"nav": false,
+			"navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+			"dots": true,
+			"dotsData": true,
+			"margin": 0
+			}'>
+	                <div class="item" data-dot="<button>01</button>">
+	                    <div class="main-slider-one__item">
+	                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.png);"></div>
+	                        <div class="main-slider-one__shape-one">
+	                            <img src="assets/images/backgrounds/slider-1-shape-1.png" alt="drivschol">
+	                        </div>
+	                        <div class="main-slider-one__shape-two">
+	                            <img src="assets/images/backgrounds/slider-1-shape-2.png" alt="drivschol">
+	                        </div>
+	                        <div class="main-slider-one__shape-border">
+	                            <span class="main-slider-one__shape-border__one"></span>
+	                            <span class="main-slider-one__shape-border__two"></span>
+	                        </div>
+	                        <div class="container">
+	                            <div class="main-slider-one__content">
+	                                <iframe title="crash" width="100%" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=4bdb5287-fd41-4c60-b586-7602a9cc52ad&autoAuth=true&ctid=4a78f2c0-297f-426d-b09f-5986924d38e7" frameborder="0" allowFullScreen="true"></iframe>
+	                                <div class="main-slider-one__btn">
+	                                    <a href="#app" class="drivschol-btn drivschol-btn--base"><span>Engagez-vous</span></a>
+	                                </div><!-- slider-btn -->
+	                            </div>
+	                        </div>
+	                        <div class="main-slider-one__layer">
+	                            <img src="assets/images/backgrounds/slider-1-layer-1.png" alt="drivschol">
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="item" data-dot="<button>02</button>">
+	                    <div class="main-slider-one__item">
+	                        <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.png);"></div>
+	                        <div class="main-slider-one__shape-one">
+	                            <img src="assets/images/backgrounds/slider-1-shape-1.png" alt="drivschol">
+	                        </div>
+	                        <div class="main-slider-one__shape-two">
+	                            <img src="assets/images/backgrounds/slider-1-shape-2.png" alt="drivschol">
+	                        </div>
+	                        <div class="main-slider-one__shape-border">
+	                            <span class="main-slider-one__shape-border__one"></span>
+	                            <span class="main-slider-one__shape-border__two"></span>
+	                        </div>
+	                        <div class="container">
+	                            <div class="main-slider-one__content">
+	                                <h2 class="main-slider-one__title">
+	                                    <span class="main-slider-one__title__anim">Votre outil</span>
+	                                    <span class="main-slider-one__title__anim">de prédiction</span>
+	                                    <span class="main-slider-one__title__anim">d'accidents</span>
+	                                    <span class="main-slider-one__title__image"><img src="assets/images/backgrounds/slider-1-shape-3.png" alt="drivschol"></span>
+	                                </h2><!-- slider-title -->
+	                                <div class="main-slider-one__btn">
+	                                    <a href="#app" class="drivschol-btn drivschol-btn--base"><span>Commencez</span></a>
+	                                </div><!-- slider-btn -->
+	                            </div>
+	                        </div>
+	                        <div class="main-slider-one__layer">
+	                            <img src="assets/images/backgrounds/slider-1-layer-2.png" alt="drivschol">
+	                        </div>
+	                    </div>
+	                </div>
+	                
+	            </div>
+	            <a href="#services" class="main-slider-one__trigger"><span class="icon-video"></span></a>
+	        </section><!-- ./main-slider-one -->
+
+	        <section class="about-one">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-lg-5">
+	                        <div class="about-one__item">
+	                            <div class="about-one__item__left">
+	                                <div class="about-one__item__left__img  wow fadeInUp" data-wow-delay="500ms">
+	                                    <img src="assets/images/accident.jpg" alt>
+	                                    
+	                                    <div class="about-one__item__left__img__sub_img">
+	                                        <img src="assets/images/accident2.jpg" alt>
+	                                        <svg viewBox="0 0 208 169" fill="none" xmlns="http://www.w3.org/2000/svg">
+	                                            <path d="M1 169V1H208" stroke="#EC2526" stroke-width="2" />
+	                                            <path d="M17 169V17H208" stroke="#EC2526" stroke-width="2" />
+	                                        </svg>
+	                                    </div>
+	                                </div>
+
+	                                <div class="about-one__item__left__contact wow fadeInLeft" data-wow-delay="500ms">
+	                                    <a class="about-one__item__left__contact__link" href="tel:303-555-0105">
+	                                        <div class="about-one__item__left__contact__link__icon">
+	                                            <i class="icon-chat2"></i>
+	                                        </div>
+	                                        <div class="about-one__item__left__contact__link__call">
+	                                            <span class="about-one__item__left__contact__link__subtext">Contact</span>
+	                                            <h6 class="about-one__item__left__contact__link__text">(216) 70 250 000</h6>
+	                                        </div>
+	                                    </a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div><!-- /.col-lg-6 -->
+	                    <div id="about" class="col-lg-7 wow fadeInRight" data-wow-delay="300ms">
+	                        <div class="about-one__item about-one__item__one">
+
+	                            <div class="about-one__item__head">
+	                                <div class="sec-title  text-start wow fadeInUp" data-wow-duration='300ms'>
+
+	                                    <h6 class="sec-title__tagline">
+	                                        <i class="icon-left-arrow sec-title__img"></i>
+	                                        Engagez-vous pour la sécurité routière
+	                                        <i class="icon-right-arrow sec-title__img"></i>
+	                                    </h6><!-- /.sec-title__tagline -->
+
+	                                    <h3 class="sec-title__title">Comparez et comprenez les données d'accidents</h3><!-- /.sec-title__title -->
+	                                </div><!-- /.sec-title -->
+	                                <p class="about-one__item__text  wow fadeInUp" data-wow-delay='500ms'>Participez à une communauté proactive en signalant les incidents et en partageant vos expériences. Ensemble, nous pouvons réduire les accidents et sauver des vies.</p><!-- /.about-one__item__text -->
+	                            </div><!-- /.about-one__item__head -->
+
+
+	                            <div class="about-one__item__elememt">
+	                                <div class="row">
+	                                    <div class="col-md-6">
+	                                        <div class="about-one__item__elememt__single wow fadeInUp" data-wow-delay="500ms">
+	                                            <div class="about-one__item__elememt__single__icon">
+	                                                <div class="icon">
+	                                                    <i class="icon-steering-wheel-1"></i>
+	                                                </div>
+	                                            </div>
+	                                            <h3 class="about-one__item__elememt__single__text">Des insights puissants</h3>
+	                                        </div>
+	                                    </div>
+
+	                                    <div class="col-md-6">
+	                                        <div class="about-one__item__elememt__single wow fadeInUp" data-wow-delay="700ms">
+	                                            <div class="about-one__item__elememt__single__icon">
+	                                                <div class="icon">
+	                                                    <i class="icon-Instructor"></i>
+	                                                </div>
+	                                            </div>
+	                                            <h3 class="about-one__item__elememt__single__text">Interpréter les visualisations</h3>
+	                                        </div>
+	                                    </div>
+
+	                                </div>
+	                            </div>
+
+	                            
+	                        </div>
+	                    </div><!-- /.col-lg-6 -->
+	                </div><!-- /.row -->
+	            </div><!-- /.container -->
+	            <div class="about-one__element">
+	                <img src="assets/images/shapes/about-cercle-1-5.png" alt>
+	            </div>
+	        </section><!-- /.about-one -->
+
+
+			<section class="testimonials-one">
+				<div class="testimonials-one__bg" style="background-image: url(assets/images/backgrounds/bg-ture.jpg);"></div>
+				<div class="container" id="testimonials">
+					<div class="sec-title2  text-center wow fadeInUp" data-wow-duration='300ms'>
+	
+						<h6 class="sec-title2__tagline">
+							<img src="assets/images/shapes/shape_left2.svg" alt="Our Feedbacks" class="sec-title2__img">
+							Nos Retours
+							<img src="assets/images/shapes/shape_right2.svg" alt="Our Feedbacks" class="sec-title2__img">
+						</h6><!-- /.sec-title__tagline -->
+	
+						<h3 class="sec-title2__title">Voyez Ce Que les gens
+							 <br> Disent ?</h3><!-- /.sec-title__title -->
+					</div><!-- /.sec-title -->
+					<div class="testimonials-one__carousel drivschol-owl__carousel drivschol-owl__carousel--with-shadow drivschol-owl__carousel--basic-nav owl-carousel" data-owl-options='{
+				"items": 1,
+				"margin": 30,
+				"loop": true,
+				"smartSpeed": 700,
+				"nav": true,
+				"navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+				"dots": false,
+				"autoplay": true,
+				"responsive": {
+					"0": {
+						"items": 1
+					},
+					"767": {
+						"items": 1,
+						"margin": 30
+					},
+					"992": {
+						"items": 3,
+						"margin": 30
+					}
+				}
+			}'>
+						<div class="item">
+							<div class="testimonials-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
+								<div class="testimonials-card__inner">
+									<div class="testimonials-card__top">
+										<div class="testimonials-card__top__icon">
+											<i class="icon-quite"></i>
+										</div><!-- /.testimonials-card__image -->
+										<div class="testimonials-card__top__rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div><!-- /.testimonials-card__rating -->
+										<p class="testimonials-card__top__designation">Cette plateforme a complètement changé ma façon de me déplacer dans New York. Grâce aux prédictions et analyses, j'évite les zones à risque et je me sens plus en sécurité sur la route. Un outil indispensable pour tous les New-Yorkais !</p><!-- /.testimonials-card__designation -->
+									</div><!-- /.testimonials-card__top -->
+									<div class="testimonials-card__author">
+										<div class="testimonials-card__author__image">
+											<img src="assets/images/resources/testi-1-3.jpg" alt="Savnah Nuyen">
+										</div><!-- /.testimonials-card__author__image -->
+										<div class="testimonials-card__author__content">
+											<h5 class="testimonials-card__author__name"><a href="team.html">Yasser Dghais</a></h5><!-- /.testimonials-card__author__name -->
+											<span class="testimonials-card__author__degeneration">Etudiant(e)</span><!-- /.testimonials-card__author__name -->
+										</div><!-- /.testimonials-card__author__content -->
+									</div><!-- /.testimonials-card__author -->
+								</div><!-- /.testimonials-card__inner -->
+							</div><!-- /.testimonials-card -->
+						</div><!-- /.item -->
+						<div class="item">
+							<div class="testimonials-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
+								<div class="testimonials-card__inner">
+									<div class="testimonials-card__top">
+										<div class="testimonials-card__top__icon">
+											<i class="icon-quite"></i>
+										</div><!-- /.testimonials-card__image -->
+										<div class="testimonials-card__top__rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div><!-- /.testimonials-card__rating -->
+										<p class="testimonials-card__top__designation">Nous sommes impressionnés par la qualité des données présentées sur cette plateforme. C'est un excellent outil pour sensibiliser à la sécurité routière et pour nos campagnes de prévention. Félicitations à cette équipe d'étudiants pour leur travail remarquable.</p><!-- /.testimonials-card__designation -->
+									</div><!-- /.testimonials-card__top -->
+									<div class="testimonials-card__author">
+										<div class="testimonials-card__author__image">
+											<img src="assets/images/resources/testi-1-2.jpg" alt="Kathryn Murphy">
+										</div><!-- /.testimonials-card__author__image -->
+										<div class="testimonials-card__author__content">
+											<h5 class="testimonials-card__author__name"><a href="team.html">Anis Battikh</a></h5><!-- /.testimonials-card__author__name -->
+											<span class="testimonials-card__author__degeneration">Etudiant(e)</span><!-- /.testimonials-card__author__name -->
+										</div><!-- /.testimonials-card__author__content -->
+									</div><!-- /.testimonials-card__author -->
+								</div><!-- /.testimonials-card__inner -->
+							</div><!-- /.testimonials-card -->
+						</div><!-- /.item -->
+						<div class="item">
+							<div class="testimonials-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
+								<div class="testimonials-card__inner">
+									<div class="testimonials-card__top">
+										<div class="testimonials-card__top__icon">
+											<i class="icon-quite"></i>
+										</div><!-- /.testimonials-card__image -->
+										<div class="testimonials-card__top__rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div><!-- /.testimonials-card__rating -->
+										<p class="testimonials-card__top__designation">Je suis bluffé par l'intuitivité et la puissance de cette application web. Utiliser Power BI pour filtrer et présenter les données est une approche innovante. Bravo à l'équipe pour avoir créé un outil si puissant et accessible.</p><!-- /.testimonials-card__designation -->
+									</div><!-- /.testimonials-card__top -->
+									<div class="testimonials-card__author">
+										<div class="testimonials-card__author__image">
+											<img src="assets/images/resources/testi-1-1.jpg" alt="Theresa Webb">
+										</div><!-- /.testimonials-card__author__image -->
+										<div class="testimonials-card__author__content">
+											<h5 class="testimonials-card__author__name"><a href="team.html">Mohamed Iheb Ferjani</a></h5><!-- /.testimonials-card__author__name -->
+											<span class="testimonials-card__author__degeneration">Etudiant(e)</span><!-- /.testimonials-card__author__name -->
+										</div><!-- /.testimonials-card__author__content -->
+									</div><!-- /.testimonials-card__author -->
+								</div><!-- /.testimonials-card__inner -->
+							</div><!-- /.testimonials-card -->
+						</div><!-- /.item -->
+						<div class="item">
+							<div class="testimonials-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
+								<div class="testimonials-card__inner">
+									<div class="testimonials-card__top">
+										<div class="testimonials-card__top__icon">
+											<i class="icon-quite"></i>
+										</div><!-- /.testimonials-card__image -->
+										<div class="testimonials-card__top__rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div><!-- /.testimonials-card__rating -->
+										<p class="testimonials-card__top__designation">Savoir que je peux consulter les zones les plus sûres pour conduire mes enfants à l'école me donne une tranquillité d'esprit incroyable. Cette plateforme n'est pas juste un projet d'étudiants; c'est une contribution significative à la communauté.</p><!-- /.testimonials-card__designation -->
+									</div><!-- /.testimonials-card__top -->
+									<div class="testimonials-card__author">
+										<div class="testimonials-card__author__image">
+											<img src="assets/images/resources/testi-1-3.jpg" alt="Savnah Nuyen">
+										</div><!-- /.testimonials-card__author__image -->
+										<div class="testimonials-card__author__content">
+											<h5 class="testimonials-card__author__name"><a href="team.html">Wiem Rekik</a></h5><!-- /.testimonials-card__author__name -->
+											<span class="testimonials-card__author__degeneration">Etudiant(e)</span><!-- /.testimonials-card__author__name -->
+										</div><!-- /.testimonials-card__author__content -->
+									</div><!-- /.testimonials-card__author -->
+								</div><!-- /.testimonials-card__inner -->
+							</div><!-- /.testimonials-card -->
+						</div><!-- /.item -->
+						
+						<div class="item">
+							<div class="testimonials-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
+								<div class="testimonials-card__inner">
+									<div class="testimonials-card__top">
+										<div class="testimonials-card__top__icon">
+											<i class="icon-quite"></i>
+										</div><!-- /.testimonials-card__image -->
+										<div class="testimonials-card__top__rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div><!-- /.testimonials-card__rating -->
+										<p class="testimonials-card__top__designation">Les visualisations et les filtres personnalisés offrent une perspective unique sur les dynamiques des accidents de voiture à New York. </p><!-- /.testimonials-card__designation -->
+									</div><!-- /.testimonials-card__top -->
+									<div class="testimonials-card__author">
+										<div class="testimonials-card__author__image">
+											<img src="assets/images/resources/testi-1-1.jpg" alt="Theresa Webb">
+										</div><!-- /.testimonials-card__author__image -->
+										<div class="testimonials-card__author__content">
+											<h5 class="testimonials-card__author__name"><a href="team.html">Nouha Achour</a></h5><!-- /.testimonials-card__author__name -->
+											<span class="testimonials-card__author__degeneration">Etudiant(e)</span><!-- /.testimonials-card__author__name -->
+										</div><!-- /.testimonials-card__author__content -->
+									</div><!-- /.testimonials-card__author -->
+								</div><!-- /.testimonials-card__inner -->
+							</div><!-- /.testimonials-card -->
+						</div><!-- /.item -->
+					</div><!-- /.testimonials-one__carousel -->
+	
+				</div><!-- /.container -->
+			</section><!-- /.testimonials-one -->
+
+
+
+
+
+
+
+	        
+
+	        <div class="cta-three">
+	           
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-12">
+	                        <div class="client-carousel ">
+	                            <div class="container">
+	                                
+	                            </div><!-- /.container -->
+	                        </div><!-- /.client-carousel -->
+	                    </div><!-- /.col-12 -->
+	                </div><!-- /.row -->
+	                
+
+	            </div><!-- /.container -->
+	        </div><!-- /.cta-three -->
+
+	        <section class="testimonials-two">
+	            <div class="funfact" id="realisations">
+	                <div class="container">
+	                    <div class="row">
+	                        <div class="col-lg-3 col-md-6 col-sm-6">
+	                            <div class="funfact__item count-box  wow fadeInUp" data-wow-delay='500ms'>
+	                                <div class="funfact__item__icon">
+	                                    <i class="funfact__item__icon__item icon-Student"></i>
+	                                </div><!-- /.funfact__item__icon -->
+	                                <div class="funfact__item__content">
+	                                    <h3 class="funfact__item__content__number funfact-one__count">
+	                                        <span class="count-text" data-stop="1.2" data-speed="1500"></span>
+	                                        <span>M</span>
+	                                    </h3><!-- /.funfact__item__content__number -->
+	                                    <p class="funfact__item__content__text">
+											Données  <br> Collectées</p><!-- /.funfact__item__content__text -->
+	                                </div><!-- /.funfact__item__content -->
+	                            </div><!-- /.funfact__item -->
+	                        </div><!-- /.col-md-3 col-sm-6 -->
+
+	                        <div class="col-lg-3 col-md-6 col-sm-6">
+	                            <div class="funfact__item count-box  wow fadeInUp" data-wow-delay='700ms'>
+	                                <div class="funfact__item__icon">
+	                                    <i class="funfact__item__icon__item icon-online-learning"></i>
+	                                </div><!-- /.funfact__item__icon -->
+	                                <div class="funfact__item__content">
+	                                    <h3 class="funfact__item__content__number funfact-one__count">
+	                                        <span class="count-text" data-stop="95.4" data-speed="1500"></span>
+	                                        <span>%</span>
+	                                    </h3><!-- /.funfact__item__content__number -->
+	                                    <p class="funfact__item__content__text">
+											Taux de Précision des Prédictions</p><!-- /.funfact__item__content__text -->
+	                                </div><!-- /.funfact__item__content -->
+	                            </div><!-- /.funfact__item -->
+	                        </div><!-- /.col-md-3 col-sm-6 -->
+
+	                        <div class="col-lg-3 col-md-6 col-sm-6">
+	                            <div class="funfact__item count-box  wow fadeInUp" data-wow-delay='900ms'>
+	                                <div class="funfact__item__icon">
+	                                    <i class="funfact__item__icon__item icon-rating-1"></i>
+	                                </div><!-- /.funfact__item__icon -->
+	                                <div class="funfact__item__content">
+	                                    <h3 class="funfact__item__content__number funfact-one__count">
+	                                        <span class="count-text" data-stop="500" data-speed="1500"></span>
+	                                        <span>+</span>
+	                                    </h3><!-- /.funfact__item__content__number -->
+	                                    <p class="funfact__item__content__text">Utilisateurs Actifs </p><!-- /.funfact__item__content__text -->
+	                                </div><!-- /.funfact__item__content -->
+	                            </div><!-- /.funfact__item -->
+	                        </div><!-- /.col-md-3 col-sm-6 -->
+
+	                        <div class="col-lg-3 col-md-6 col-sm-6">
+	                            <div class="funfact__item count-box  wow fadeInUp" data-wow-delay='1100ms'>
+	                                <div class="funfact__item__icon">
+	                                    <i class="funfact__item__icon__item icon-instructor-1"></i>
+	                                </div><!-- /.funfact__item__icon -->
+	                                <div class="funfact__item__content">
+	                                    <h3 class="funfact__item__content__number funfact-one__count">
+	                                        <span class="count-text" data-stop="200" data-speed="1500"></span>
+	                                        <span>+</span>
+	                                    </h3><!-- /.funfact__item__content__number -->
+	                                    <p class="funfact__item__content__text">Partenariats Établis</p><!-- /.funfact__item__content__text -->
+	                                </div><!-- /.funfact__item__content -->
+	                            </div><!-- /.funfact__item -->
+	                        </div><!-- /.col-md-3 col-sm-6 -->
+
+	                    </div><!-- /.row -->
+	                </div><!-- /.container -->
+	            </div><!-- /.funfact -->
+
+
+				<section class="login-page">
+					<div class="container" id="app">
+						<div class="login-page__inner">
+							<div class="row gutter-x-94">
+								<div class="col-lg-4 wow fadeInUp animated" data-wow-delay="300ms">
+									<div class="login-page__wrap">
+										<h3 class="login-page__wrap__title">Prediction</h3>
+										<!-- Update action and method -->
+										<div class="login-page__form" >
+											<div class="login-page__form-input-box">
+												<!-- Add name attribute -->
+												<input type="date" name="date1" id="date1" placeholder="First Date">
+											</div>
+											<div class="login-page__form-input-box">
+												<!-- Add name attribute -->
+												<input type="date" name="date2" id="date2" placeholder="Second Date">
+											</div>
+											<!-- Rest of the form remains unchanged -->
+											<div class="login-page__form-btn-box">
+												<!-- Add name attribute to button -->
+												<button class="drivschol-btn drivschol-btn--base2" onclick="predict()"><span>Prediction sur les accidents</span></button>
+											</div>
+										</div>
+										<div class="form__border"></div>
+									</div><!-- login-form -->
+								</div>
+				
+								<div class="col-lg-8 wow fadeInUp animated" data-wow-delay="300ms">
+									<table border="1" class="predict">
+										<tr>
+											<th class="predict date">
+												Start Date
+											</th>
+												<th class="predict date">
+													End Date
+												</th>
+													<th class="predict">
+														Estimated total cyclists
+													</th>
+														<th class="predict">
+															Estimated total injured
+														</th>
+															<th class="predict">
+																Estimated total motorists
+															</th>
+																<th class="predict">
+																	Estimated total pedestrians
+																</th>
+										</tr>
+
+										<tr>
+											<td class="predict date" >
+												<span id="startdate"></span>
+											</td>
+												<td class="predict date">
+													<span id="enddate"></span>
+												</td>
+													<td class="predict">
+														<span id="estimatedtotalcyclists"></span>
+													</td>
+														<td class="predict">
+															<span id="estimatedtotalinjured"></span>
+														</td>
+															<td class="predict">
+																<span id="estimatedtotalmotorists"></span>
+															</td>
+																<td class="predict">
+																	<span id="estimatedtotalpedestrians"></span>
+																</td>
+										</tr>
+									</table>
+								</div>
+				
+								
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Login End -->
+				
+
+
+
+
+
+	        <section class="experience-one">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-lg-6">
+	                        <div class="experience-one__left">
+	                            <div class="sec-title  text-start wow fadeInUp" data-wow-duration='300ms'>
+
+	                                <h6 class="sec-title__tagline">
+	                                    <i class="icon-left-arrow sec-title__img"></i>
+	                                    F.A.Q
+	                                    <i class="icon-right-arrow sec-title__img"></i>
+	                                </h6><!-- /.sec-title__tagline -->
+
+	                                <h3 class="sec-title__title">Découvrez notre mission et ce que nous offrons. <br> Question Réponse</h3><!-- /.sec-title__title -->
+	                            </div><!-- /.sec-title -->
+	                            <div class="experience-one__left__content  count-box">
+	                                <div class="row">
+	                                    <div class="col-sm-6">
+	                                        <div class="experience-one__left__content__item  wow fadeInUp" data-wow-delay='500ms' style="background-image: url(assets/images/newyork.jpg);">
+	                                            <div class="funfact-one__content">
+	                                                <h3 class="funfact-one__count">
+	                                                    <span class="count-text" data-stop="40" data-speed="2500"></span>
+	                                                    <span class="funfact-one__count__pluse">+</span>
+	                                                </h3>
+	                                                <span class="funfact-one__content__text">Year <br>
+	                                                    Expertise</span>
+	                                            </div><!-- /.funfact-one__content -->
+	                                        </div><!-- /.experience-one__left__content__item -->
+	                                    </div><!-- /.col-sm-6 -->
+	                                    <div class="col-sm-6">
+	                                        <div class="experience-one__left__content__item  wow fadeInUp" data-wow-delay='700ms' style="background-image: url(assets/images/newyork2.jpg);">
+	                                            
+	                                        </div><!-- /.experience-one__left__content__item -->
+	                                    </div><!-- /.col-sm-6 -->
+	                                </div><!-- /.row -->
+	                            </div><!-- /.experience-one__left__content -->
+	                        </div><!-- /.experience-one__left -->
+	                    </div><!-- /.col-12 -->
+	                    <div class="col-lg-6">
+	                        <div class="faq-page__accordion drivschol-accrodion  wow fadeInUp" data-wow-delay='500ms' data-grp-name="drivschol-accrodion">
+	                            <div class="accrodion">
+	                                <div class="accrodion-title">
+	                                    <h4 class="accrodion-title__text">Comment collectez-vous les données sur les accidents de voiture ?<span class="accrodion-title__icon"></span></h4>
+	                                </div><!-- /.accordian-title -->
+	                                <div class="accrodion-content">
+	                                    <div class="inner">
+	                                        <p class="accrodion-content__text">Nous recueillons les données à partir de sources officielles et fiables, puis nous utilisons des scripts avancés pour nettoyer et filtrer ces informations, garantissant ainsi leur précision et leur pertinence.</p>
+	                                    </div><!-- /.accordian-content -->
+	                                </div>
+	                            </div><!-- /.accordian-item -->
+
+	                            <div class="accrodion active">
+	                                <div class="accrodion-title">
+	                                    <h4 class="accrodion-title__text">Puis-je accéder aux données historiques des accidents <span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon --></h4>
+	                                </div><!-- /.accordian-title -->
+	                                <div class="accrodion-content">
+	                                    <div class="inner">
+	                                        <p class="accrodion-content__text">Oui, notre plateforme offre un accès complet aux données historiques des accidents de voiture à New York, permettant aux utilisateurs de réaliser des analyses temporelles et des comparaisons.</p>
+	                                    </div><!-- /.accordian-content -->
+	                                </div>
+	                            </div><!-- /.accordian-item -->
+
+	                            <div class="accrodion">
+	                                <div class="accrodion-title">
+	                                    <h4 class="accrodion-title__text">Comment votre plateforme prédit-elle les zones à risque ?<span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon --></h4>
+	                                </div><!-- /.accordian-title -->
+	                                <div class="accrodion-content">
+	                                    <div class="inner">
+	                                        <p class="accrodion-content__text">Nous utilisons des algorithmes de machine learning pour analyser les données historiques et identifier les tendances. Ces modèles nous permettent de prédire les zones à haut risque avec une grande précision.</p>
+	                                    </div><!-- /.accordian-content -->
+	                                </div>
+	                            </div><!-- /.accordian-item -->
+
+	                            <div class="accrodion">
+	                                <div class="accrodion-title">
+	                                    <h4 class="accrodion-title__text">L'accès à votre plateforme est-il gratuit ?<span class="accrodion-title__icon"></span><!-- /.accrodion-title__icon --></h4>
+	                                </div><!-- /.accordian-title -->
+	                                <div class="accrodion-content">
+	                                    <div class="inner">
+	                                        <p class="accrodion-content__text">Oui, notre objectif est de rendre les données sur les accidents de voiture accessibles à tous. La plateforme est donc entièrement gratuite pour les utilisateurs.</p>
+	                                    </div><!-- /.accordian-content -->
+	                                </div>
+	                            </div><!-- /.accordian-item -->
+
+	                        </div>
+	                    </div><!-- /.col-lg-6 -->
+	                </div><!-- /.row -->
+	            </div><!-- /.container -->
+	        </section><!-- /.experience-one -->
+
+	       
+
+	        
+
+	        
+
+	        <footer class="main-footer background-black-2">
+
+	            
+
+
+	            <div class="main-footer__bottom">
+	                <div class="container">
+	                    <div class="main-footer__bottom__inner">
+	                        <p class="main-footer__copyright"> &copy; Copyright <span class="dynamic-year"></span> by Projet Data Science</p>
+	                    </div><!-- /.main-footer__inner -->
+	                </div><!-- /.container -->
+	            </div><!-- /.main-footer__bottom -->
+
+	        </footer><!-- /.main-footer -->
+
+	    </div><!-- /.page-wrapper -->
+
+
+
+	    <div class="mobile-nav__wrapper">
+	        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+	        <!-- /.mobile-nav__overlay -->
+	        <div class="mobile-nav__content">
+	            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+	            <div class="logo-box">
+	                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt="logo drivschol"></a>
+	            </div>
+	            <!-- /.logo-box -->
+	            <div class="mobile-nav__container"></div>
+	            <!-- /.mobile-nav__container -->
+
+	            <ul class="mobile-nav__contact list-unstyled">
+	                <li>
+	                    <i class="fa fa-envelope"></i>
+	                    <a href="mailto:needhelp@drivschol.com">needhelp@drivschol.com</a>
+	                </li>
+	                <li>
+	                    <i class="fa fa-phone-alt"></i>
+	                    <a href="tel:666-888-0000">666 888 0000</a>
+	                </li>
+	            </ul><!-- /.mobile-nav__contact -->
+	            <div class="mobile-nav__social">
+	                <!-- social link-->
+	                <a href="https://facebook.com"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+	                <a href="https://twitter.com"><i class="icon-twitter" aria-hidden="true"></i></a>
+	                <a href="https://pinterest.com"><i class="icon-pinterest" aria-hidden="true"></i></a>
+	                <a href="https://instagram.com"><i class="icon-Instagram" aria-hidden="true"></i></a>
+	            </div><!-- /.mobile-nav__social -->
+	        </div>
+	        <!-- /.mobile-nav__content -->
+	    </div>
+	    <!-- /.mobile-nav__wrapper -->
+	    <div class="search-popup">
+	        <div class="search-popup__overlay search-toggler"></div>
+	        <!-- /.search-popup__overlay -->
+	        <div class="search-popup__content">
+	            <form role="search" method="get" class="search-popup__form" action="#">
+	                <input type="text" id="search" placeholder="Search Here...">
+	                <button type="submit" aria-label="search submit" class="drivschol-btn drivschol-btn--base2">
+	                    <span><i class="icon-search"></i></span>
+	                </button>
+	            </form>
+	        </div>
+	        <!-- /.search-popup__content -->
+	    </div>
+	    <!-- /.search-popup -->
+
+	    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+	        <span class="scroll-to-top__text">back top</span>
+	        <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
+	    </a>
+
+
+
+	    <!--  ALl JS Plugins =====================
+        ====================================== -->
+	    <!--  jquery-3.7.0 js plugins -->
+	    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+	    <!--  Bootstrap js plugins -->
+	    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+	    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+	    <!--  jarallax js plugins -->
+	    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+	    <!--  jquery-ui js plugins -->
+	    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+	    <!--  jquery-ajaxchimp js plugins -->
+	    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+	    <!--  jquery-appear js plugins -->
+	    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+	    <!-- jquery-circle-progress js plugins -->
+	    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+	    <!--  magnific-popup js plugins -->
+	    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+	    <!--  validate js plugins -->
+	    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+	    <!--  nouislider js plugins -->
+	    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+	    <!--  tiny-slider js plugins -->
+	    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
+	    <!--  wnumb js plugins -->
+	    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+	    <!--  owl-carousel js plugins -->
+	    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+	    <!--  Bootstrap js plugins -->
+	    <script src="assets/vendors/wow/wow.js"></script>
+	    <!--  wow js plugins -->
+	    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+	    <!--  isotope js plugins -->
+	    <script src="assets/vendors/isotope/isotope.js"></script>
+	    <!--  countdown js plugins -->
+	    <script src="assets/vendors/countdown/countdown.min.js"></script>
+	    <!--  jquery-circleType js plugins -->
+	    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+	    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+
+	    <!-- template js -->
+	    <script src="assets/js/drivschol.js"></script>
+		<script>
+			function predict(){
+				
+				var date1 = document.getElementById("date1").value;
+				var date2 = document.getElementById("date2").value;
+				var url = "http://127.0.0.1:5000/estimate_injuries?start_date="+date1+"&end_date="+date2;
+				fetch(url, {
+					method: "GET",
+					headers: {
+					  "Content-Type": "application/json",
+					},
+				  })
+					.then((response) => {
+					  if (!response.ok) {
+						throw new Error("Network response was not ok");
+					  }
+					  return response.json();
+					})
+					.then((data) => {
+					  // Handle the response data
+					  console.log(data);
+					  document.getElementById("startdate").innerHTML = data.start_date;
+					  document.getElementById("enddate").innerHTML = data.end_date;
+					  document.getElementById("estimatedtotalcyclists").innerHTML = data.estimated_total_cyclists;
+					  document.getElementById("estimatedtotalinjured").innerHTML = data.estimated_total_injured;
+					  document.getElementById("estimatedtotalmotorists").innerHTML = data.estimated_total_motorists;
+					  document.getElementById("estimatedtotalpedestrians").innerHTML = data.estimated_total_pedestrians;
+					})
+					.catch((error) => {
+					  console.error(
+						"There was a problem with the fetch operation:",
+						error
+					  );
+					  alert("An error occurred while signing up.");
+					});
+
+				console.log(date1)
+			}
+		</script>
+	</body>
+
+	</html>
